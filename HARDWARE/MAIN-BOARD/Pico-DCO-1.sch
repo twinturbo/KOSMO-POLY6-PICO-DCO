@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "TwinTurbo Kosmo > Polykit Raspberry Pi Pico DCO"
-Date "2023-01-28"
+Date "2023-03-06"
 Rev "V0.1.0"
-Comp "Claytune [ Orig Jan Knipper ]"
-Comment1 "KOSMO POLYKIT PICO DCO "
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comp "Tobin Stage "
+Comment1 "From the Original by Jan Knipper AKA PolyKit  https://github.com/polykit/pico-dco"
+Comment2 "KOSMO-POLY6-PICO-DCO   https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO"
+Comment3 "From the Original by Jan Knipper AKA PolyKit "
+Comment4 "https://github.com/polykit/pico-dco"
 $EndDescr
 Wire Wire Line
 	6350 3750 6350 4100

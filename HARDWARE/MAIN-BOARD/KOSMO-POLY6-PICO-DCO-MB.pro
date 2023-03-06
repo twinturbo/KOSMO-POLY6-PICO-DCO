@@ -1,4 +1,4 @@
-update=28/01/2023 17:38:46
+update=06/03/2023 19:44:59
 version=1
 last_client=kicad
 [general]
@@ -260,6 +260,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Audio Path
+Clearance=0.8
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Power
 Clearance=0.2
 TrackWidth=0.45

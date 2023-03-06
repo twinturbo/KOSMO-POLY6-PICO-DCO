@@ -5,11 +5,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "TwinTurbo Kosmo > Polykit Raspberry Pi Pico DCO"
-Date "2023-01-28"
+Date "2023-03-06"
 Rev "V0.1.1"
-Comp "Claytune [ Orig Jan Knipper ]"
-Comment1 "KOSMO POLYKIT PICO DCO "
-Comment2 ""
+Comp "Tobin Stage "
+Comment1 "From the Original by Jan Knipper AKA PolyKit  https://github.com/polykit/pico-dco"
+Comment2 "KOSMO-POLY6-PICO-DCO   https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO"
 Comment3 ""
 Comment4 ""
 $EndDescr
