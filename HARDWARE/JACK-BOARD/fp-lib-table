@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name RPi_Pico)(type KiCad)(uri /home/jan/synth/RPi_Pico/VGA-KiCAD/VGA/RPi_Pico.pretty)(options "")(descr ""))
-)

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
-Title "TwinTurbo Kosmo > Polykit Raspberry Pi Pico DCO"
+Title "KOSMO-POLY6-PICO-DCO"
 Date "2023-03-06"
-Rev "V0.1.0"
-Comp "Tobin Stage "
+Rev "V0.1.1"
+Comp "Claytune"
 Comment1 "From the Original by Jan Knipper AKA PolyKit  https://github.com/polykit/pico-dco"
 Comment2 "KOSMO-POLY6-PICO-DCO   https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO"
 Comment3 "From the Original by Jan Knipper AKA PolyKit "
@@ -832,7 +832,7 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 609307F0
-P 9650 5600
+P 9500 5250
 AR Path="/609307F0" Ref="C?"  Part="1" 
 AR Path="/60864F99/609307F0" Ref="C5"  Part="1" 
 AR Path="/60A567BE/609307F0" Ref="C15"  Part="1" 
@@ -844,19 +844,15 @@ AR Path="/60ADE329/609307F0" Ref="C20"  Part="1"
 AR Path="/60ADFCBC/609307F0" Ref="C25"  Part="1" 
 AR Path="/60AE15A4/609307F0" Ref="C30"  Part="1" 
 AR Path="/60AE2DA8/609307F0" Ref="C35"  Part="1" 
-F 0 "C5" V 9398 5600 50  0000 C CNN
-F 1 "100n" V 9489 5600 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 9688 5450 50  0001 C CNN
-F 3 "~" H 9650 5600 50  0001 C CNN
-	1    9650 5600
-	1    0    0    -1  
+F 0 "C5" V 9248 5250 50  0000 C CNN
+F 1 "100n" V 9339 5250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 9538 5100 50  0001 C CNN
+F 3 "~" H 9500 5250 50  0001 C CNN
+	1    9500 5250
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9650 5450 9650 5250
-Wire Wire Line
 	9650 5250 9900 5250
-Wire Wire Line
-	9650 5750 9650 5850
 Wire Wire Line
 	9650 5850 9900 5850
 Text HLabel 7750 3850 2    50   Output ~ 0
@@ -910,5 +906,71 @@ F 2 "" H 9900 6000 50  0001 C CNN
 F 3 "" H 9900 6000 50  0001 C CNN
 	1    9900 6000
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6406A9A6
+P 9350 5250
+AR Path="/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60864F99/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60A567BE/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60A5EC98/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60A67127/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60A89C21/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60AC3F2C/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60ADE329/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60ADFCBC/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60AE15A4/6406A9A6" Ref="#PWR?"  Part="1" 
+AR Path="/60AE2DA8/6406A9A6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9350 5000 50  0001 C CNN
+F 1 "GND" H 9355 5077 50  0000 C CNN
+F 2 "" H 9350 5250 50  0001 C CNN
+F 3 "" H 9350 5250 50  0001 C CNN
+	1    9350 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6406F6CF
+P 9500 5850
+AR Path="/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60864F99/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60A567BE/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60A5EC98/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60A67127/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60A89C21/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60AC3F2C/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60ADE329/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60ADFCBC/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60AE15A4/6406F6CF" Ref="C?"  Part="1" 
+AR Path="/60AE2DA8/6406F6CF" Ref="C?"  Part="1" 
+F 0 "C?" V 9248 5850 50  0000 C CNN
+F 1 "100n" V 9339 5850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 9538 5700 50  0001 C CNN
+F 3 "~" H 9500 5850 50  0001 C CNN
+	1    9500 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6406FA87
+P 9350 5850
+AR Path="/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60864F99/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60A567BE/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60A5EC98/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60A67127/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60A89C21/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60AC3F2C/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60ADE329/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60ADFCBC/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60AE15A4/6406FA87" Ref="#PWR?"  Part="1" 
+AR Path="/60AE2DA8/6406FA87" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9350 5600 50  0001 C CNN
+F 1 "GND" H 9355 5677 50  0000 C CNN
+F 2 "" H 9350 5850 50  0001 C CNN
+F 3 "" H 9350 5850 50  0001 C CNN
+	1    9350 5850
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

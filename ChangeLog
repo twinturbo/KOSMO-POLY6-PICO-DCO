@@ -1,32 +1,33 @@
-#########################
-# Change Log XXX        #
-############################################################################
-#                                                                          #
-# Num   Date       Time    Who   SFP  Change                               #
-############################################################################
-#  #1   00/00/00   12:00   RC    					   #
-#  #2   24/01/23   21:12   RC    S    Added Jacks, Pins, Footprints,       #
-#                                     Relaying Components                  #
-#  #3   26/01/23   20:23   RC         SPLIT OUT MAIN AND JACK HARDWARE     #
-#  #4   26/01/23   21:00   RC    Sm   Main Schematic Tidy                  #
-#  #5   26/01/23   21:30   RC    Pm   Main PCB Laid out                      #
-#  #6   27/01/23   13:52   RC    Sm   Added grounds , changed labels from sub #
-#  #7   27/01/23   13:52   RC    Sm/pm Added Midi in teltale/shaper        #
-#  #8   27/01/23   13:52   RC    SPj  Laid out Jack Schematic                #
-#  #9   27/01/23   16:00   RC    Fm   Front Panel Done - pot name / layer fx #
-#  #10  27/01/23   16:00   RC    Fj   Front Panel V0.1.0 Done bar layer fix  #
-#  #11	28/01/23   16:00   RC    SPmj Added power Through                  #
-#  #12  28/01/23   16:30   RC    Pm   Added Fills and Text                 #
-#  #13  28/01/23   19:33   RC    PFmj All Finished on V0.1.0 To Print      #
-#  #14  28/01/23   19:35   RC    PFmj   PRINT V0.1.0                       #
-#  #15	16/02/23   08:22   RC	 SMPM V0.1.1 GND on LED's and R4           #
-#  #16  16/02/23   08:22   RC    R4/PWM Pot values updatged to 5.1K and 10K#
-#  #17  16/02/23   20:00   RC    U9 74LS14 incorect swapped for 74HC14     #
-#  #19  16/02/23   20:20   RC    U9 has no 3.3v or GND added man route     #
-#  #20  16/02/23   20:40   RC    R92 Link not joined to U9-4 "RX"          #
-#  #21  17/02/23   08:08   RC    D9 rotate for better rouring              #
-
-############################################################################
+##########################################
+# Change Log KOSMO-POLY6-PICO-DCO        #
+################################################################################
+# S=Schematic P=PCB F=Front                                                    #
+# Num   Date       Time    Who   SFP  Change                                   #
+################################################################################
+#  #1   00/00/00   12:00   RC    					                           #
+#  #2   24/01/23   21:12   RC    S    Added Jacks, Pins, Footprints,           #
+#                                     Relaying Components                      #
+#  #3   26/01/23   20:23   RC         SPLIT OUT MAIN AND JACK HARDWARE         #
+#  #4   26/01/23   21:00   RC    Sm   Main Schematic Tidy                      #
+#  #5   26/01/23   21:30   RC    Pm   Main PCB Laid out                        #
+#  #6   27/01/23   13:52   RC    Sm   Added grounds , changed labels from sub  #
+#  #7   27/01/23   13:52   RC    Sm/pm Added Midi in teltale/shaper            #
+#  #8   27/01/23   13:52   RC    SPj  Laid out Jack Schematic                  #
+#  #9   27/01/23   16:00   RC    Fm   Front Panel Done - pot name / layer fx   #
+#  #10  27/01/23   16:00   RC    Fj   Front Panel V0.1.0 Done bar layer fix    #
+#  #11	28/01/23   16:00   RC    SPmj Added power Through                      #
+#  #12  28/01/23   16:30   RC    Pm   Added Fills and Text                     #
+#  #13  28/01/23   19:33   RC    PFmj All Finished on V0.1.0 To Print          #
+#  #14  28/01/23   19:35   RC    PFmj   PRINT V0.1.0                           #
+#  #15	16/02/23   08:22   RC	 SMPM V0.1.1 GND on LED's and R4               #
+#  #16  16/02/23   08:22   RC    SP R4/PWM Pot values updatged to 5.1K and 10K #
+#  #17  16/02/23   20:00   RC    SP U9 74LS14 incorect swapped for 74HC14      #
+#  #19  16/02/23   20:20   RC    SP U9 has no 3.3v or GND added man route      #
+#  #20  16/02/23   20:40   RC    SP R92 Link not joined to U9-4 "RX"           #
+#  #21  17/02/23   08:08   RC    P D9 rotate for better rouring                #
+#  #22  06/03/23   21:00   RC    Slpit jack project to seperate repository     #
+#  #23  06/03/23   21:00   RC    P increased track gap on audio lines          #
+################################################################################
 
 
 
