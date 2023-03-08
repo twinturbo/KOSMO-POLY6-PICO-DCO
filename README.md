@@ -1,7 +1,9 @@
 # Raspberry Pi Pico Polyphonic DCO - In LMNC Kosmo Format
 
 The credit for the desigin and code goes to the original Project by Jan Knipper AKA PolyKit [PolyKit DCO](https://github.com/polykit/pico-dco)
+
 #Overall Project
+
 The [POLY6](https://github.com/twinturbo/KOSMO-POLY6) GIT contains the details of the porject as a whole, this is one module.
 
 **DRAFT**
