@@ -1,6 +1,8 @@
 # Raspberry Pi Pico Polyphonic DCO - In LMNC Kosmo Format
 
-The credit forthe desigin and code goes to the original Project by Jan Knipper AKA PolyKit [PolyKit DCO](https://github.com/polykit/pico-dco)
+The credit for the desigin and code goes to the original Project by Jan Knipper AKA PolyKit [PolyKit DCO](https://github.com/polykit/pico-dco)
+#Overall Project
+The [POLY6](https://github.com/twinturbo/KOSMO-POLY6) GIT contains the details of the porject as a whole, this is one module.
 
 **DRAFT**
 This repository contains source code, schematics and PCBs for a digitally controlled oscillator (DCO) with up to 6 voices which are driven by a Raspberry Pi Pico. It uses PIO to generate a highly accurate frequency which is controlled by USB or serial MIDI. The analog oscillator part is based on the Juno 106 and generates sawtooth and square wave signal with a 10Vpp amplitude. Amplitude compensation is done by a smoothed PWM signal coming from the Pico.
