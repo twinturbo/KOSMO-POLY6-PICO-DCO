@@ -74,15 +74,21 @@ Two files are provided in the software/build folder along with the source code i
 pico-dco-optdisab.uf2 is built with the options for FM, STACK and Detune disabled. This is ideal if you don't have these inputs connected.
 
 //#define USE_ADC_STACK_VOICES // gpio 28 (adc 2)
+
 //#define USE_ADC_DETUNE       // gpio 27 (adc 1)
+
 //#define USE_ADC_FM           // gpio 26 (adc 0)
 
 ### Enabled Options
 pico-dco-options.uf2 has the above options enabled.
 
 #define USE_ADC_STACK_VOICES // gpio 28 (adc 2)
+
 #define USE_ADC_DETUNE       // gpio 27 (adc 1)
+
 #define USE_ADC_FM           // gpio 26 (adc 0)
+
+
 
 ### Writing to the MCU.
 
@@ -107,9 +113,11 @@ The built-in analog-to-digital converter can be used to modulate these parameter
 As mentioned above, these are not implemented in hardware on this module but a seperate control module needs to be built. 
 
 #define USE_ADC_STACK_VOICES // gpio 28 (adc 2)
+
 #define USE_ADC_DETUNE       // gpio 27 (adc 1)
+
 #define USE_ADC_FM           // gpio 26 (adc 0)
-```
+
 Hardware wise the FM needs to be biased at 1.675v for zero input , the notes on this can be found in the source code **loop void adc_task()**
 
 ## Quirks
