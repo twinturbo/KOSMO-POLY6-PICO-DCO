@@ -30,11 +30,11 @@ This will form part of a polyphonic synthesizer, see Jans version https://www.yo
 
 ## Schematics and PCB
 
-![Kosmo DCO Master PCB ](/Documentation/master-pcb-V0.1.0.png)
+![KOSMO-POLY6-PICO SCHEMATIC ](/Documentation/schematic-V0.1.1.png)
+![KOSMO-POLY6-PICO PCB ](/Documentation/PCB-V0.1.1.png)
+![KOSMO-POLY6-PICO Front Panel ](/Documentation/master-fp-V0.1.0.png)
+![Kosmo DCO Jack I/O ](/Documentation/IO-Notes.png)
 
-![Kosmo DCO Master Front Panel ](/Documentation/master-fp-V0.1.0.png)
-![Kosmo DCO Jack PCB ](/Documentation/jack-pcb-V0.1.0.png)
-![Kosmo DCO Jack Front Panle ](/Documentation/jack-fp-V0.1.0.png)
 
 
 Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
