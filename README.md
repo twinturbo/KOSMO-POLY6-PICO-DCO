@@ -19,12 +19,14 @@ Other modules in the line up are
 - KOSMO-POLY6-MetricST-Front-Panel - (TBD)
 
 #KOSMO-POLY6-PICO-DCO
+
 **DRAFT**
 This repository contains source code, schematics and PCBs for a digitally controlled oscillator (DCO) with up to 6 voices which are driven by a Raspberry Pi Pico. It uses PIO to generate a highly accurate frequency which is controlled by USB or serial MIDI. The analog oscillator part is based on the Juno 106 and generates sawtooth and square wave signal with a 10Vpp amplitude. Amplitude compensation is done by a smoothed PWM signal coming from the Pico.
 
 This version is a re-design of PolyKit's Pico DCO to fit into the "Look Mum No Computer" "Kosmo Format".
 
 ## Key features
+
 **DRAFT**
 - Digitally controlled analog oscillator using a Raspberry Pi Pico
 - Up to six voices
