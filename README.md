@@ -2,13 +2,13 @@
 
 The credit forthe desigin and code goes to the original Project by Jan Knipper AKA PolyKit [PolyKit DCO](https://github.com/polykit/pico-dco)
 
-DRAFT....
+**DRAFT**
 This repository contains source code, schematics and PCBs for a digitally controlled oscillator (DCO) with up to 6 voices which are driven by a Raspberry Pi Pico. It uses PIO to generate a highly accurate frequency which is controlled by USB or serial MIDI. The analog oscillator part is based on the Juno 106 and generates sawtooth and square wave signal with a 10Vpp amplitude. Amplitude compensation is done by a smoothed PWM signal coming from the Pico.
 
 This version is a re-design of PolyKit's Pico DCO to fit into the "Look Mum No Computer" "Kosmo Format".
 
 ## Key features
-
+**DRAFT**
 - Digitally controlled analog oscillator using a Raspberry Pi Pico
 - Up to six voices
 - Voice stacking             ------ [ requires sub control board ] See > Not Done
@@ -41,16 +41,22 @@ Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
  There are four files to pprint. 
  
 ## Installation on the paspbery Pi Pico (simple)
+**DRAFT**
 
 Press `BOOTSEL` button on the Pico while powering it with USB. Copy file `build/pico-dco.uf2` onto the USB mass storage device.
 
 ## Usage
+**DRAFT**
 
 After installing the Pico should register as USB MIDI device. Alternatively serial MIDI input is available. The DCO listens to note on/note off messages on MIDI channel 1. Pitch bend is also supported. Portamento can be enabled by MIDI CC message #65, portamento time can be adjusted by CC message #5.
 
-## Detuning, stacking and FM
+## Quirks
 
-The build-in analog-to-digital converter can be used to modulate these parameters. You can add an external control voltage (0-3.3V) to that input pins. These features can be disabled by commenting (`//`) the following lines:
+Initialy the voices will be floating on startup which if directly outputed ( not through an ADSR/VCA ) may present as noise, as each of the voices is initialised by a key press the noise will go away. 
+
+## Detuning, stacking and FM
+**DRAFT**
+The built-in analog-to-digital converter can be used to modulate these parameters. You can add an external control voltage (0-3.3V) to that input pins. These features can be disabled by commenting (`//`) the following lines:
 
 ```
 #define USE_ADC_STACK_VOICES // gpio 28 (adc 2)
