@@ -66,10 +66,8 @@ Wire Wire Line
 	4550 2400 4550 2500
 Wire Wire Line
 	4550 2100 4550 2050
-Text GLabel 4850 1900 2    50   Output ~ 0
+Text GLabel 5150 1850 1    50   Output ~ 0
 PW_POT
-Wire Wire Line
-	4700 1900 4850 1900
 $Comp
 L power:GND #PWR0114
 U 1 1 60964D2D
@@ -1431,7 +1429,7 @@ U 1 1 606AE3C2
 P 8150 5150
 F 0 "MCU1" H 8150 6365 50  0000 C CNN
 F 1 "Raspberry Pi Pico" H 8150 6274 50  0000 C CNN
-F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 8150 5150 50  0001 C CNN
+F 2 "GITS:RPi_Pico_SMD_TH" V 8150 5150 50  0001 C CNN
 F 3 "" H 8150 5150 50  0001 C CNN
 	1    8150 5150
 	1    0    0    -1  
@@ -1551,4 +1549,23 @@ Wire Notes Line
 	6500 6450 5350 6450
 Text Notes 5400 6600 0    79   ~ 0
 BOARD MOUNTS
+$Comp
+L Connector_Generic:Conn_01x02 PG1
+U 1 1 640C5879
+P 5150 2150
+AR Path="/640C5879" Ref="PG1"  Part="1" 
+AR Path="/63D01E71/640C5879" Ref="PWM_IN?"  Part="1" 
+F 0 "PG1" H 5068 1917 50  0000 C CNN
+F 1 "TO PG, Jumper if not used" H 5068 1916 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5150 2150 50  0001 C CNN
+F 3 "~" H 5150 2150 50  0001 C CNN
+	1    5150 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 1850 5150 1950
+Wire Wire Line
+	5050 1900 5050 1950
+Wire Wire Line
+	4700 1900 5050 1900
 $EndSCHEMATC
