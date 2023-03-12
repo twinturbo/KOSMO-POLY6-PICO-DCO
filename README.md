@@ -124,6 +124,13 @@ Hardware wise the FM needs to be biased at 1.675v for zero input , the notes on 
 
 Initialy the voices will be floating on startup, which if directly outputed ( not through an ADSR/VCA ) may present as noise, as each of the voices is initialised by a key press the noise will go away. 
 
+## Changes 
+TwinTurbo 12/3/23 - 
+Ref: > https://lookmumnocomputer.discourse.group/t/raspberry-pi-pico-dco/3421/90
+updated source code from 0x90 to 0x9F
+
+
+
 # References
 The Original 
 https://github.com/polykit/pico-dco
