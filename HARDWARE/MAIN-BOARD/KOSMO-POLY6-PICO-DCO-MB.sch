@@ -1556,7 +1556,7 @@ P 5150 2150
 AR Path="/640C5879" Ref="PG1"  Part="1" 
 AR Path="/63D01E71/640C5879" Ref="PWM_IN?"  Part="1" 
 F 0 "PG1" H 5068 1917 50  0000 C CNN
-F 1 "TO PG, Jumper if not used" H 5068 1916 50  0001 C CNN
+F 1 "TO PG, Jumper if not used" H 5068 1916 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5150 2150 50  0001 C CNN
 F 3 "~" H 5150 2150 50  0001 C CNN
 	1    5150 2150
