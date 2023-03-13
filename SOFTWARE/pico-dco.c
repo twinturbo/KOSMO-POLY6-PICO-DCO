@@ -225,8 +225,9 @@ void serial_midi_task() {
     if (data >= 0x80 && data <= 0xEF) {
         midi_serial_status = data;
     }
-
-    if (midi_serial_status >= 0x80 && midi_serial_status <= 0x90 ||
+//https://lookmumnocomputer.discourse.group/t/raspberry-pi-pico-dco/3421/90
+// updated from 0x90 to 0x9F RC 12/3/23
+    if (midi_serial_status >= 0x80 && midi_serial_status <= 0x9F ||
         midi_serial_status >= 0xB0 && midi_serial_status <= 0xBF || // cc messages
         midi_serial_status >= 0xE0 && midi_serial_status <= 0xEF) {
 
