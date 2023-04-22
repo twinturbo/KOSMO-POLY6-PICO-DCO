@@ -3,6 +3,8 @@ This repository contains KICAD Schematics, PCB and front panel to build a 6 voic
 
 This project requires a Raspbery Pi Pico MCU.
 
+Parts of the following information are by Jan AKA Polykit from the original repository
+
 ## About KOSMO-POLY6
 The [POLY6](https://github.com/twinturbo/KOSMO-POLY6) GIT contains the details of the porject as a whole, this is one module.
 
